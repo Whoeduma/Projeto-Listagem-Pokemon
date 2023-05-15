@@ -1,0 +1,169 @@
+
+body {
+	font-family: 'Inconsolata', monospace;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #5e5b5bad;
+	color: #333333;
+}
+
+body.dark-mode {
+	background-color: #212121;
+	color: #f5f5f5;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+header .logo,
+header .img-button {
+	width: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+header #button-change-theme {
+	background: none;
+	border: none;
+}
+
+header .logo:hover,
+header .img-button:hover,
+main .pokemon-card:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+main {
+	padding: 25px;
+}
+
+main .list-pokemon{
+    display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+main .pokemon-card {
+	background-color: #d8e3ec;
+	width: 200px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+}
+
+main .pokemon-card:hover{
+    background-color: #96d9d6;
+}
+
+.dark-mode .pokemon-card {
+	background-color: #a8a8a8;
+}
+
+main .pokemon-card .info {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #333333;
+	border-radius: 10px;
+}
+
+main .pokemon-card .info span {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+main .pokemon-card .types {
+	display: flex;
+	gap: 15px;
+}
+
+main .pokemon-card .types{
+	padding: 8px;
+	border-radius: 10px;
+}
+
+
+.grass-type {
+	background-color: #7ac74c;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.poison-type {
+	background-color: #df67ddfb;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.fire-type {
+	background-color: #ee8130;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.water-type {
+	background-color: #6390f0;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.bug-type {
+	background-color: #a6b91a;
+	border-radius: 10px;
+	padding: 8px;
+	padding: 8px;
+}
+
+.fairy-type{
+	background-color: #FFABAB;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.fighting-type{
+	background-color: #D21312;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.normal-type{
+	background-color: #E1D4BB;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.ground-type{
+	background-color: #A9907E;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.psychic-type{
+	background-color: #D3756B;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.electric-type{
+	background-color: #FFD95A;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+
+main .description {
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+

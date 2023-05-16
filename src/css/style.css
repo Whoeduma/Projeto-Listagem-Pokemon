@@ -73,6 +73,7 @@ main .pokemon-card {
 
 main .pokemon-card:hover{
     background-color: #B6E2A1;
+	box-shadow: inset 0.10em 0.10em 1em rgba(0, 0, 0, 0.25), 0 0 1em #1c1c1c;
 }
 
 .dark-mode .pokemon-card {
